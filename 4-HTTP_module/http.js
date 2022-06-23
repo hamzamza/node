@@ -21,6 +21,8 @@ else res.end(`<body>
 </body>
 `)
 })
-server.listen(5000)
+server.listen(5000,()=>{
+    console.log('listninig in port number 5000');
+})
 // -- we call this hifen hifen not a tiré blsix
 // lodash is used for flat talbe items 
